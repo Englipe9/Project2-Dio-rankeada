@@ -1,8 +1,8 @@
 
 function rankeada(Vitoria,Derrota){
    
-    const xp = Vitoria - Derrota
-    let nivel=""
+    const xp = Vitoria - Derrota ;
+    let nivel="" ;
 
     if (xp <= 10){
         nivel ="Ferro"
@@ -22,4 +22,4 @@ function rankeada(Vitoria,Derrota){
 
 console.log(`O heroi tem o saldo de: ${xp} está no nivel de: ${nivel}`)
 }
-rankeada(20,5)
+rankeada(20,5);
